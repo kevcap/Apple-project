@@ -1,74 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 10px;
-    color: #6e6e6e;
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 10px;
+  color: #6e6e6e;
 }
 
 .link {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* NAVBAR */
 .navbar {
-    position: relative;
-    top: 80px;
-    width: 980px;
-    margin: 0 auto;
-    background-color: #6e6e6e;
-    border-radius: 5px;
-    height: 36px;
-    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-    background: rgb(142,141,141);
-    background: linear-gradient( #767676 0%, #616161 50%, #4c4c4c 10%, #767676 100%);
+  position: relative;
+  top: 80px;
+  width: 980px;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 36px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(#767676 0%, #616161 50%, #4c4c4c 10%, #767676 100%);
+  background-color: #6e6e6e;
 }
 
 .navbar-itens {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  cursor: pointer;
 }
-.nav-content{
-    width: 100%;
-    max-width: 103px;
-    height: 36px;
-    border-right: 1px solid grey;
+
+.nav-content:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
+
+.nav-content {
+  width: 100%;
+  max-width: 103px;
+  height: 36px;
+  border-right: 1px solid grey;
+}
+
 .nav-logo {
-    padding-top: 5px !important;
+  padding-top: 5px !important;
+  background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% 0;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 3px auto;
 }
+
 .nav-link {
-    padding-top: 10px;
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
-    color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .nav-search {
-    padding: 8px 12px;
-    display: inline;
+  padding: 8px 12px;
+  display: inline;
+
 }
+
 .nav-search-input {
-    width: 104px;
-    border: none;
-    border-radius: 15px;
-    padding: 4px 15px;
-    font-size: 12px;
+  width: 104px;
+  border-width: 0.5px;
+  border-radius: 15px;
+  padding: 4px 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  background: rgba(180, 180, 180, 0.3);
+  transition: all 0.4s ;
+}
+
+.magnifyer {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  cursor: default;
+}
+
+.magnifyer svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 17px;
+    left: 5px;
+}
+
+.magnifyer-icon {
+  fill: white;
+  transition: 0.01s;
+  box-shadow: #767676;
 }
 
 .nav-search-input:focus {
-    width: 170px;
-    outline: none;
+  width: 170px;
+  outline: none;
+  background-color: white;
+}
+
+.nav-search-input:focus + .magnifyer svg path, .nav-search-input:focus + .magnifyer svg polygon {
+  fill: grey;
 }
