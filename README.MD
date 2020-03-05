@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/Kevinalvesdev/Apple-project/ffc94c5514233b50eded90f3272c36d11352ce0c/index.html)
+[Live Demo](https://rawcdn.githack.com/Kevinalvesdev/Apple-project/92947866fac4fa7c9fcd92cbc9798897b3d0e898/index.html)
 
 ## Getting Started
 
