@@ -19,7 +19,6 @@
 
 .container {
   margin: 0 auto;
-
 }
 
 /* NAVBAR */
@@ -31,7 +30,7 @@
   border-radius: 3px;
   height: 36px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777777 100%);
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
   background-color: #6e6e6e;
 }
 
@@ -145,7 +144,7 @@
 
 .middle-text div {
   margin-top: 20px;
-  height:80px;
+  height: 80px;
 }
 
 .middle-text-1 {
@@ -164,7 +163,6 @@
 .middle-text-3:hover {
   background: url('./img/your_verse.png') no-repeat;
 }
-
 
 /* working on aside */
 
