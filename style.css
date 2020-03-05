@@ -65,8 +65,7 @@
 .nav-link {
   padding: 10px;
   display: block;
-  margin: 0 auto;
-  width: fit-content;
+  margin: 0 20%;
   color: white;
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
