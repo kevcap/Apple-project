@@ -48,6 +48,7 @@
   max-width: 103px;
   height: 36px;
   border-right: 1px solid grey;
+  text-align: center;
 }
 
 .nav-content:hover {
@@ -66,7 +67,6 @@
 .nav-link {
   padding: 10px;
   display: block;
-  margin: 0 20%;
   color: white;
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
