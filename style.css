@@ -1,0 +1,234 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.78rem;
+  color: #6e6e6e;
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+  color: #08c;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+.navbar {
+  position: relative;
+  top: 85px;
+  width: 980px;
+  margin: 0 auto;
+  border-radius: 3px;
+  height: 36px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
+  background-color: #6e6e6e;
+}
+
+.navbar-itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  cursor: pointer;
+}
+
+.nav-content {
+  width: 100%;
+  max-width: 103px;
+  height: 36px;
+  border-right: 1px solid grey;
+  text-align: center;
+}
+
+.nav-content:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo {
+  padding-top: 5px !important;
+  background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% 0;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.nav-link {
+  padding: 10px;
+  display: block;
+  color: white;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.nav-search {
+  padding: 8px 12px;
+  display: inline;
+}
+
+.nav-search-input {
+  width: 70px;
+  border-width: 0.5px;
+  border-color: #767676;
+  border-radius: 15px;
+  padding: 4px 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  background: rgba(180, 180, 180, 0.3);
+  transition: all 0.4s;
+}
+
+.magnifyer {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  cursor: default;
+}
+
+.magnifyer svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 17px;
+  left: 5px;
+}
+
+.magnifyer-icon {
+  fill: white;
+  transition: 0.01s;
+  box-shadow: #767676;
+}
+
+.nav-search-input:focus {
+  width: 150px;
+  outline: none;
+  background-color: white;
+}
+
+.nav-search-input:focus + .magnifyer svg path,
+.nav-search-input:focus + .magnifyer svg polygon {
+  fill: grey;
+}
+
+/* WORKING ON MAIN DIV */
+
+.background-img {
+  background: url(img/background-img.jpg) 50% 100% no-repeat;
+  height: 1500px;
+  width: 100%;
+  max-width: 1349px;
+  margin: 0 auto;
+  margin-top: -997px;
+  z-index: -1;
+}
+
+/* WORKING ON MIDDLE DIVS */
+
+.middle-text {
+  width: 980px;
+  margin: -410px auto 0 auto;
+  cursor: pointer;
+  padding-bottom: 112px;
+}
+
+.middle-text div {
+  margin-top: 20px;
+  height: 80px;
+}
+
+.middle-text-1 {
+  background: url('./img/page_title.png') no-repeat;
+}
+
+.middle-text-2 {
+  background: url('./img/subtitle.png') no-repeat;
+}
+
+.middle-text-3 {
+  background: url('./img/your_front.png') no-repeat;
+  margin-left: 100px;
+}
+
+.middle-text-3:hover {
+  background: url('./img/your_verse.png') no-repeat;
+}
+
+/* working on aside */
+
+aside {
+  display: flex;
+  width: 1349px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+aside a {
+  width: 360px;
+  min-width: 280px;
+  height: 200px;
+  margin-left: 2px;
+}
+
+.iphone5s {
+  background: url('./img/promo_iphone5s.jpg') 50% 0%;
+}
+
+.iphone5c {
+  background: url('./img/promo_iphone5c.jpg') 50% 0%;
+}
+
+.macbday {
+  background: url('./img/promo_30_years.jpg') 50% 0%;
+}
+
+.suplier {
+  background: url('./img/promo_supplier_responsibility.jpg') 50% 0%;
+}
+
+footer {
+  width: 1340px;
+  margin: 20px auto 10px auto;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+}
+
+.footer-content-left {
+  margin-left: 190px;
+}
+
+.footer-content-right {
+  margin-left: 50px;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+.usa {
+  background: url('https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  top: -3px;
+  position: relative;
+}
+
+.footer-content-right a::after {
+  margin: 5px;
+  color: grey;
+  content: "|";
+}
